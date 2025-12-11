@@ -5,9 +5,9 @@ public class Jdbc{
     String customer_user_name;
     boolean isvalidate = false;
     int user_id;
-    String durl = "jdbc:mysql://localhost:3306/cab_booking";
-    String dname = "root";
-    String dpass = "Pugal@9965";
+    String durl = "";
+    String dname = "";
+    String dpass = "";
          
      public boolean register(String name,String email,String phone,int password ){
          this.user_id = user_id;
@@ -123,3 +123,4 @@ public class Jdbc{
          return new int[]{1,2};
      }
 }
+
